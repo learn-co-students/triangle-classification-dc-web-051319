@@ -13,9 +13,9 @@ class Triangle
         hypotenuse = sorted.pop
 
         case 
-        when sides.select{ |side| side > 0 }.length == 0 
+        #when sides.select{ |side| side > 0 }.length == 0 
             #begin 
-                raise TriangleError
+                #raise TriangleError
             #rescue TriangleError => error
                 #puts error.message_zero
             #end
